@@ -1,0 +1,25 @@
+<resources>
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+        <item name="android:actionBarStyle">@style/TwitterActionBar</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/TwitterActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="TwitterActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/twitter_blue</item>
+        <item name="android:gravity">center</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/twitter_blue</item>
+    </style>
+
+    <color name="twitter_blue">#55ACEE</color>
+
+</resources>

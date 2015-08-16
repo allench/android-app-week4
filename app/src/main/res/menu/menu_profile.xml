@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.allench.twitterclient.activities.ProfileActivity">
+
+    <item
+        android:id="@+id/action_loading"
+        android:orderInCategory="10"
+        android:title="Loading..."
+        android:visible="true"
+        app:actionLayout="@layout/view_progress_loading"
+        app:showAsAction="ifRoom" />
+
+</menu>
